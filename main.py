@@ -114,11 +114,8 @@ plt.ylabel('Sum of resources')
 plt.legend()
 plt.show()"""
 # print(*table, sep="\n")
-# Исходный набор данных
-# Настройка размеров подложки
 plt.figure(figsize=(12, 7))
 plt.suptitle("Simulation Results")
-# Вывод графиков
 n_dove_list = [25, 50, 75, 100]
 n_hawk_list = [25, 50, 75, 100]
 resource_list = [25, 50, 75, 100]
